@@ -5,8 +5,10 @@ function takeANumber(katzDeliLine, max) {
 
 function nowServing() {
   takeANumber.shift()
-  return takeANumber
+  return 'There is nobody waiting to be served!'
 }
+
+
 
 
 
