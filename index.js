@@ -4,7 +4,7 @@ function takeANumber(katzDeliLine, max) {
 }
 
 function nowServing() {
-  takeANumber.splice[0]
+  takeANumber.shift()
   return takeANumber
 }
 
