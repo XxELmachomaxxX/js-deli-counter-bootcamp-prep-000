@@ -1,6 +1,6 @@
 function takeANumber(katzDeliLine, max) {
   let takeANumber = ['jeff', 'bill', 'pedro']
-  return katzDeliLine
+  return takeANumber
 }
 
 function nowServing() {
@@ -9,7 +9,9 @@ function nowServing() {
 }
 
 function currentLine() {
-  
+  if takeANumber = ['jeff', 'bill', 'pedro'] {
+    return ('The line is currrently: 1. jeff, 2. bill, 3. pedro')
+  } else return ('The line is currently empty.')
 }
 
 
